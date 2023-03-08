@@ -13,6 +13,12 @@
       pkgs.glib
       # Needed for matplotlib
       pkgs.xorg.libX11
+
+      # notebook and data science stuff
+      pkgs.jupyter
+      pkgs.python310.pkgs.numpy
+      pkgs.python310.pkgs.pandas
+      pkgs.python310.pkgs.psycopg2
     ];
     PYTHONHOME = "${pkgs.python310Full}";
     PYTHONBIN = "${pkgs.python310Full}/bin/python3.10";
