@@ -11,12 +11,12 @@ hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
 channel = "stable-22_11"
 
 [env]
-VIRTUAL_ENV = "/home/runner/${REPL_SLUG}/venv"
-PATH = "${VIRTUAL_ENV}/bin"
-PYTHONPATH = "$PYTHONHOME/lib/python3.10:${VIRTUAL_ENV}/lib/python3.10/site-packages"
-REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
-MPLBACKEND = "TkAgg"
-POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
+#VIRTUAL_ENV = "/home/runner/${REPL_SLUG}/venv"
+#PATH = "${VIRTUAL_ENV}/bin"
+#PYTHONPATH = "$PYTHONHOME/lib/python3.10:${VIRTUAL_ENV}/lib/python3.10/site-packages"
+#REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
+#MPLBACKEND = "TkAgg"
+#POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
 
 # Enable unit tests. This is only supported for a few languages.
 [unitTest]
